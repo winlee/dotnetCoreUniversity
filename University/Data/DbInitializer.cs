@@ -10,6 +10,7 @@ namespace University.Data
     {
         public static void Initialize(SchoolContext context)
         {
+            //该项保证数据库在不存在的情况下，可以确保新建数据库
             //context.Database.EnsureCreated();
 
             // Look for any students.
