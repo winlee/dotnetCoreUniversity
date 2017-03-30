@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+<ins>
+    <ol>
+        <li>
+            <p>
+                EF Core Exercise Project, 应该用<strong>Sql Express 或者SQL Server 2012+</strong>版本，CORE内部的Skip，Take分页采取的是<strong>FETCH/OFFSET</strong>方式，本人使用SQL Server 2008出错
+            </p>
+            <pre>
+              SqlException: 'OFFSET' 附近有语法错误。 在 FETCH 语句中选项 NEXT 的
+             </pre>
+        </li>
+    </ol>
+
+</ins>
